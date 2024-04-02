@@ -1,0 +1,14 @@
+site_name: Raj Garg
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: amber
+  font:
+    code: Roboto Mono
+  features:
+    - navigation.instant
+  plugins:
+    - search
+    - search.suggest
+    - search.highlight
