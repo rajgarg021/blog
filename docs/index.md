@@ -6,17 +6,11 @@
 > [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 >> Google's LLM where the objective isn't next word prediction but masked LM (cloze task) and next sentence prediction
 
-> [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
->> GPT-3 paper
-
 > [Neural Machine Translation with Byte-Level Subwords](https://arxiv.org/abs/1909.03341)
 >> Proposed the use of Byte-level Byte Pair Encoding algorithm for tokenization
 
 > [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288)
 >> META's LLM with a decoder only architecture
-
-> [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196)
->> Survery of popular LLM families (GPT, LLaMA, PaLM), popular datasets for LLM training, fine-tuning and evaluation and more
 
 > [Root Mean Square Layer Normalization](https://arxiv.org/abs/1910.07467)
 >> Proposed that re-centering invariance in LayerNorm is dispensible and re-scaling invariance alone is enough
@@ -36,6 +30,11 @@
 > [GLU Variants Improve Transformer](https://arxiv.org/pdf/2002.05202)
 >> Proposed using GLU activation functions for Transformers
 
+> [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196)
+>> Survery of popular LLM families (GPT, LLaMA, PaLM), popular datasets for LLM training, fine-tuning and evaluation and more
+
+> [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
+>> GPT-3 paper
 
 > [Mistral 7B](https://arxiv.org/pdf/2310.06825)
 >> MistralAI's LLM
