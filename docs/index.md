@@ -1,5 +1,11 @@
 # Research papers I've read recently
 
+> [Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)
+>> The original paper from 2015 which introduced Diffusion technique to the field of machine learning coming originally from statistical physics
+
+> [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
+>> Second influential paper for diffusion models published in 2020 which introduced few groundbreaking changes which led to huge jump in quality
+
 > [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 >> Introduced the Transformer architecture which is prevalent in the field of AI now
 
