@@ -6,6 +6,14 @@
 > [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
 >> Second influential paper for diffusion models published in 2020 which introduced few groundbreaking changes which led to huge jump in quality
 
+> [Improved Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2102.09672)
+>> First paper on diffusion models by OpenAI, finds that learning the variance of the conditional distribution (besides the mean) helps in improving performance
+
+> [Deep Double Descent: Where Bigger Models and More Data Hurt](https://arxiv.org/abs/1912.02292)
+>> - Describes the double descent phenomenon, shows that it is a function of not just the model size but the number of training epochs as well
+>> - Introduced a generalized double descent hypothesis: models and training procedures exhibit atypical behavior when their Effective Model Complexity is comparable to the number of train samples
+>> - Also shows that the double descent phenomenon can lead to a regime where training on more data leads to worse test performance
+
 > [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 >> Introduced the Transformer architecture which is prevalent in the field of AI now
 
