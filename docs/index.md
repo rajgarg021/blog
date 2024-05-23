@@ -1,5 +1,8 @@
 # Research papers I've read recently
 
+> [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
+>> The key idea proposed in this paper is to model the diffusion process in a lower-dimensional latent space, rather than directly in the high-dimensional pixel space. This latent diffusion model (LDM) approach involves training an autoencoder to map images to a lower-dimensional latent representation. The diffusion process is then performed in this latent space, gradually adding noise to the latent representations and then learning to remove it
+
 > [Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)
 >> The original paper from 2015 which introduced Diffusion technique to the field of machine learning coming originally from statistical physics
 
