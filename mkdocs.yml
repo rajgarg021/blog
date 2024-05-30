@@ -12,3 +12,12 @@ theme:
     - search
     - search.suggest
     - search.highlight
+  markdown_extensions:
+    - pymdownx.pathconverter:
+        base_path: / # default: ''
+        relative_path: docs/ # default ''
+        absolute: false # default: false
+        tags: 'a script img link object embed'
+  # nav:
+  #   - Home: index.md
+  #   - Resume: docs/resume.md
