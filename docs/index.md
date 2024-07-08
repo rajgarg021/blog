@@ -1,5 +1,11 @@
 # Research papers I've read recently
 
+> [RouteLLM: Learning to Route LLMs with Preference Data](https://arxiv.org/abs/2406.18665)
+
+> [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+
+> [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
+
 > [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
 >> The key idea proposed in this paper is to model the diffusion process in a lower-dimensional latent space, rather than directly in the high-dimensional pixel space. This latent diffusion model (LDM) approach involves training an autoencoder to map images to a lower-dimensional latent representation. The diffusion process is then performed in this latent space, gradually adding noise to the latent representations and then learning to remove it
 
