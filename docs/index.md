@@ -1,5 +1,9 @@
 # Research papers I've read recently
 
+> [Video Understanding with Large Language Models: A Survey](https://arxiv.org/pdf/2312.17432)
+>> This survey provides a comprehensive overview of the current state of video understanding using large language models.
+>> Introduces a novel taxonomy for Video Understanding with Large Language Models (Vid-LLMs)
+
 > [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
 >> Introduces the Vision Transformer (ViT), a novel approach to image classification that applies the Transformer architecture, originally designed for natural language processing, to computer vision tasks.
 
