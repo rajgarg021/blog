@@ -1,10 +1,7 @@
 # Research papers I've read recently
 
-> [RouteLLM: Learning to Route LLMs with Preference Data](https://arxiv.org/abs/2406.18665)
-
-> [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
-
-> [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
+> [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
+>> Introduces the Vision Transformer (ViT), a novel approach to image classification that applies the Transformer architecture, originally designed for natural language processing, to computer vision tasks.
 
 > [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
 >> The key idea proposed in this paper is to model the diffusion process in a lower-dimensional latent space, rather than directly in the high-dimensional pixel space. This latent diffusion model (LDM) approach involves training an autoencoder to map images to a lower-dimensional latent representation. The diffusion process is then performed in this latent space, gradually adding noise to the latent representations and then learning to remove it
@@ -49,6 +46,12 @@
 
 > [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/abs/2305.13245)
 >> Introduced Grouped-Query Attention
+
+> [RouteLLM: Learning to Route LLMs with Preference Data](https://arxiv.org/abs/2406.18665)
+
+> [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+
+> [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
 
 > [GLU Variants Improve Transformer](https://arxiv.org/pdf/2002.05202)
 >> Proposed using GLU activation functions for Transformers
