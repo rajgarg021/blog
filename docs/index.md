@@ -1,11 +1,25 @@
 # Research papers I've read recently
 
-> [Video Understanding with Large Language Models: A Survey](https://arxiv.org/pdf/2312.17432)
->> This survey provides a comprehensive overview of the current state of video understanding using large language models.
->> Introduces a novel taxonomy for Video Understanding with Large Language Models (Vid-LLMs)
+> [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+>> - Introduced a method for efficiently fine-tuning LLMs by significantly reducing the number of trainable parameters
+>> - Key finding was that the delta weights matrix of a large language model has a low intrinsic dimensionality
+>> - LoRA uses low-rank decomposition to adapt the model's weights, capturing most of the benefits of full fine-tuning
+>> - Allows for creating small, task-specific adaptations that can be easily switched or combined
+
+> [Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/abs/2012.13255v1)
+>> The authors show that pre-trained language models have a low intrinsic dimensionality. This means that fine-tuning can be done effectively by optimizing only a small subset of parameters. For instance, they demonstrate that tuning only around 200 parameters can yield 90% of the performance of fine-tuning the full model
+
+> [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
+>> - QLoRA enables memory-efficient fine-tuning of large language models, such as 65B parameter models, on a single 48GB GPU. It maintains performance similar to full 16-bit precision fine-tuning.
+>> - Introduced NF4, a new data type optimized for normally distributed weights, helps reduce memory usage by quantizing models to 4-bit precision without significant performance degradation
+
+> [The case for 4-bit precision: k-bit Inference Scaling Laws](https://arxiv.org/abs/2212.09720)
+>> - Through extensive experimentation with models ranging from 19M to 176B parameters, the authors demonstrate that 4-bit precision strikes the best balance between model size and performance, particularly for zero-shot tasks
+>> - Introduced scaling laws that guide how performance (in terms of accuracy and efficiency) scales with model size and bit precision. These laws help determine the bit-precision and model size combinations that maximize performance for zero-shot inference tasks
 
 > [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
->> Introduces the Vision Transformer (ViT), a novel approach to image classification that applies the Transformer architecture, originally designed for natural language processing, to computer vision tasks.
+>> - Demonstrated the effectiveness of applying Transformer models to image recognition tasks
+>> - Vision Transformers (ViT) are trained on sequences of image patches rather than full images, where each patch is treated like a token in a sequence, similar to words in text models
 
 > [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
 >> The key idea proposed in this paper is to model the diffusion process in a lower-dimensional latent space, rather than directly in the high-dimensional pixel space. This latent diffusion model (LDM) approach involves training an autoencoder to map images to a lower-dimensional latent representation. The diffusion process is then performed in this latent space, gradually adding noise to the latent representations and then learning to remove it
@@ -52,10 +66,6 @@
 >> Introduced Grouped-Query Attention
 
 > [RouteLLM: Learning to Route LLMs with Preference Data](https://arxiv.org/abs/2406.18665)
-
-> [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
-
-> [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
 
 > [GLU Variants Improve Transformer](https://arxiv.org/pdf/2002.05202)
 >> Proposed using GLU activation functions for Transformers
