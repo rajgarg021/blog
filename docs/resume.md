@@ -1,4 +1,5 @@
-<object data="../pdfs/resume.pdf" type="application/pdf" width="100%" height="650px">
-    <embed src="../pdfs/resume.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" />
-    <p>Your browser doesn't support embedding PDFs. You can <a href="../pdfs/resume.pdf">download the PDF</a> to view it.</p>
-</object>
+# My Resume
+
+<iframe src="../pdfs/resume.pdf" width="100%" height="600px" style="border: none;">
+  <p>Your browser doesn't support iframes. You can <a href="../pdfs/resume.pdf">download the PDF</a> to view it.</p>
+</iframe>
