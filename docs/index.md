@@ -28,7 +28,8 @@
 >> The original paper from 2015 which introduced Diffusion technique to the field of machine learning coming originally from statistical physics
 
 > [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
->> Second influential paper for diffusion models published in 2020 which introduced few groundbreaking changes which led to huge jump in quality
+>> - Second influential paper for diffusion models published in 2020 which introduced few groundbreaking changes which led to huge jump in quality
+>> - The core idea of DDPMs is to model the data distribution as a reverse diffusion process. A diffusion process gradually adds noise to data, effectively destroying its structure, while the reverse process learns to remove this noise, reconstructing the data.
 
 > [Improved Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2102.09672)
 >> First paper on diffusion models by OpenAI, finds that learning the variance of the conditional distribution (besides the mean) helps in improving performance
