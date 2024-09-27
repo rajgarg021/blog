@@ -13,18 +13,10 @@ theme:
     - content.code.annotation
     - content.code.copy
   palette:
-    - scheme: default
-      primary: teal
-      accent: lime
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to Light Mode
-    - scheme: slate
-      primary: teal
-      accent: deep-purple
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to Dark Mode
+    scheme: slate
+    primary: indigo
+    accent: blue
+
   font:
     code: Roboto Mono
   
