@@ -3,7 +3,11 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: amber
+    primary: teal
+    accent: deep-purple
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to Dark Mode
   font:
     code: Roboto Mono
   features:
@@ -12,4 +16,8 @@ theme:
     - search
     - search.suggest
     - search.highlight
-    
+    - social:
+      - icon: fontawesome/brands/github-alt
+        link: https://github.com/rajgarg021
+      - icon: fontawesome/brands/twitter
+        link: https://x.com/rajgarg021
