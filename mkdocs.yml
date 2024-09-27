@@ -4,8 +4,7 @@ theme:
   features:
     - navigation.instant
     - navigation.sections
-    - navigation.tabs
-    - navigation.tabs.link
+    - navigation.path
     - navigation.top
     - toc.integrate
     - search.highlight
@@ -16,16 +15,16 @@ theme:
   palette:
     - scheme: default
       primary: teal
-      accent: deep-purple
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to Dark Mode
-    - scheme: slate
-      primary: teal
       accent: lime
       toggle:
         icon: material/toggle-switch
         name: Switch to Light Mode
+    - scheme: slate
+      primary: teal
+      accent: deep-purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to Dark Mode
   font:
     code: Roboto Mono
   
